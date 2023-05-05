@@ -147,3 +147,7 @@ let showdisclock=(mili)=>{
 
 
 // Edn Day Counter section
+
+// Start Wow js
+new WOW().init();
+// End Wow js
