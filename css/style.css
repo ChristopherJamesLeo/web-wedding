@@ -645,3 +645,54 @@ body::-webkit-scrollbar-thumb {
     font-size: 50px;
 }
 /* end sub banner section */
+
+/* ---------------------------------- */
+/* ----------Contact Page------------ */
+/* ---------------------------------- */
+/* Start Contact Section */
+.contact_form_title h3 {
+    color: var(--global-dark-blue-bg-color);
+    font-size: 35px;
+    font-family: var(--global-oswald-font);
+} 
+.contact_form_body .form-group .form-control {
+    padding: 15px;
+    font-size: 18px;
+    font-family: var(--global-roboto-font);
+}
+.contact_form_body .form-group .form-control::placeholder {
+    font-weight: 300;
+}
+.contact_form_body .form-group .form-control:focus {
+    box-shadow: none;
+}
+.contact_form_body button {
+    padding: 15px 25px;
+    color: var(--global-primary-color) !important;
+    background-color: transparent;
+    border: 1px solid var(--global-primary-color) !important;
+    font-weight: 500;
+}
+.contact_address span.d-grid {
+    color: var(--global-text-light-gray-color);
+    width: 70px;
+    height: 70px;
+    place-items: center;
+    font-size: 25px;
+}
+
+.contact_add_group p {
+    color: var(--global-text-light-gray-color);
+    font-size: 18px;
+    font-family: var(--global-oswald-font);
+    font-weight: 600;
+    line-height: 0.8;
+}
+.contact_add_group .address {
+    color: var(--global-text-dark-gray-color);
+    font-size: 18px;
+    font-family: var(--global-primary-font);
+    line-height: 0.8;
+
+}
+/* End Contact Section */

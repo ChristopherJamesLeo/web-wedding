@@ -61,9 +61,9 @@
                     <div id="mynav" class="navbar-collapse collapse justify-content-end">
                         <ul class="navbar-nav text-uppercase ">
                             <li class="nav-item"><a href="./index.html" class="nav-link ">home</a></li>
-                            <li class="nav-item"><a href="./about.html" class="nav-link active">about</a></li>
-                            <li class="nav-item"><a href="./gallery.html" class="nav-link">gallery</a></li>
-                            <li class="nav-item"><a href="./guestbook.html" class="nav-link">guestbook</a></li>
+                            <li class="nav-item"><a href="./about.html" class="nav-link">about</a></li>
+                            <li class="nav-item"><a href="./gallery.html" class="nav-link ">gallery</a></li>
+                            <li class="nav-item"><a href="./guestbook.html" class="nav-link ">guestbook</a></li>
                             <li class="nav-item ">
                                 <a href="#" class="nav-link">blog</a>
                                 <ul class="list-unstyled secondary_list_group">
@@ -71,7 +71,7 @@
                                     <li class="secondary_list_group_item"><a href="#" class="nav-link">Blog Detail</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item"><a href="./contact.html" class="nav-link">contact us</a></li>
+                            <li class="nav-item"><a href="./contact.html" class="nav-link active">contact us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -83,7 +83,7 @@
         <section class="sub_banner_section">
             <div class="container">
                 <div class="text-start sub_banner_content">
-                    <h1>About Us</h1>
+                    <h1>Contact Us</h1>
                 </div>
             </div>
         </section>
@@ -91,43 +91,79 @@
     </header>
     <!-- End Header Section -->
 
-    <!-- Start love story section -->
-    <section class="py-5 love_story">
-        <!-- Start section title -->
-        <div class="wow animate__fadeInUp m-auto text-center section_title ">
-            <h1>Our Love Story</h1>
-            <div class="text-center">
-                <img src="./assets/imgs/backgrounds/tittle_img.png.webp"  alt="tittle_img">
+
+    <!-- Start Contact Section -->
+    <section class="contact_section">
+        <div class="container">
+            <div class="py-5 map_container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d72654.82592009184!2d96.0765017755175!3d16.853673400121007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c195b4425b359f%3A0x8f6d7cc46083dd45!2z4YCh4YCE4YC64YC44YCF4YCt4YCU4YC64YCV4YCU4YC64YC44YCB4YC84YC2LCDhgJvhgJThgLrhgIDhgK_hgJThgLo!5e0!3m2!1smy!2smm!4v1682567339931!5m2!1smy!2smm" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <p class="mt-4">
-                Quisque nec facilisis sem. In at commodo velit. Aliquam tempor volutpat laoreet. Quisque non tellus eleifend arcu gravida aliquam. Vivamus quis consequat nisl, nec luctus libero. Nam sodales sem egestas sem blandit volutpat.
-            </p>
-        </div>
-        <!-- end section title -->
-        <div class="pt-5 container">
-            <div class="row">
-                <div class="col-lg-6 col-md-12">
-                    <div class="d-flex justify-content-center align-items-center love_story_content_container">
-                        <div class="love_story_content">
-                            <h3>The Proposal</h3>
-                            <p>
-                                Proin at sapien ipsum. Aenean placerat, quam ac tempor congue, orci est luctus ex, ut vestibulum ipsum nisl eu nisi.
-                            </p>
-                            <p>
-                                Proin at sapien ipsum. Aenean placerat, quam ac tempor.
-                            </p>
+            <div class="contact_form_container">
+                <div class="row">
+                    <!-- Start Form Title -->
+                    <div class="contact_form_title">
+                        <h3 class="mb-4">Get In Touch</h3>
+                    </div>
+                    <!-- end Form Title -->
+                    <div class="col-lg-8 col-md-12 mb-5">
+                        <div class="contact_form">
+                            
+                            <!-- Start Contact form body -->
+                            <div class="contact_form_body">
+                                <form action="" method="post">
+                                    <div class="mb-3 form-group">
+                                        <textarea name="message" id="message" rows="5" class="form-control border" placeholder="Enter Message"></textarea>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-12 mb-3 form-group">
+                                            <input type="text" name="name" id="name" class="form-control border" placeholder="Enter Your Name">
+                                        </div>
+                                        <div class="col-lg-6 col-md-12 mb-3 form-group">
+                                            <input type="email" name="email" id="email" class="form-control border" placeholder="Enter Email Address">
+                                        </div>
+                                        <div class="col-lg-12 mb-3 form-group">
+                                            <input type="text" name="subject" id="subject" class="form-control border" placeholder="Enter Subject">
+                                        </div>
+                                        <div class="mt-5">
+                                            <button type="submit" class="btn btn-lg text-uppercase">Send Message</button>
+                                        </div>
+                                        
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- End Contact Form Body -->
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-6 col-md-12">
-                    <div class="love_story_img_container">
-                        <img src="./assets/imgs/backgrounds/story1.jpg.webp" width="100%" alt="">
+                    <div class="col-lg-4 col-md-12 mb-3">
+                        <div class="contact_address_links_container">
+                            <div class="mb-3 d-flex justify-content-start align-items-center contact_address">
+                                <span class="d-grid"><i class="fas fa-home"></i></span>
+                                <div class="contact_add_group">
+                                    <p>Buttonwood, California.</p>
+                                    <span class="address">Rosemead, CA 91770</span>
+                                </div>
+                            </div>
+                            <div class="mb-3 d-flex justify-content-start align-items-center contact_address">
+                                <span class="d-grid"><i class="fas fa-mobile-alt"></i></span>
+                                <div class="contact_add_group">
+                                    <p>00 (440) 9865 562</p>
+                                    <span class="address">Mon to Fri 9am to 6pm</span>
+                                </div>
+                            </div>
+                            <div class="mb-3 d-flex justify-content-start align-items-center contact_address">
+                                <span class="d-grid"><i class="fas fa-envelope"></i></span>
+                                <div class="contact_add_group">
+                                    <p>support@colorlib.com</p>
+                                    <span class="address">Send us your query anytime</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- End love story section -->
+    <!-- End Contact Section -->
 
 
     <!-- start footer Section -->
@@ -272,7 +308,7 @@
     <script src="./assets/libs/Counter-Up2-master/dist/index.js"></script>
 
     <!-- custom js -->
-    <script src="./js/about.js"></script>
+    <script src="./js/contact.js"></script>
 
 </body>
 </html>
