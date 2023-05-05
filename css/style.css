@@ -625,3 +625,23 @@ body::-webkit-scrollbar-thumb {
     padding-left: 10px;
 }
 /* end footer section */
+
+/* --------------------------------- */
+/* -----------about us page--------- */
+/* --------------------------------- */
+/* start sub banner section */
+.sub_banner_section {
+    background-image: url("../assets/imgs/banners/hero2.png.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sub_banner_content {
+    padding: 200px 0px;
+}
+.sub_banner_content h1 {
+    color: var(--global-white-color);
+    font-family: var(--global-title-font);
+    font-size: 50px;
+}
+/* end sub banner section */
